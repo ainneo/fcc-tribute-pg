@@ -1,0 +1,19 @@
+body {margin: 20px;}
+
+header{width:100%}
+header > h1{text-align: center; padding: 10px; font-family: 'Anton', sans-serif; font-size: 10vw }
+
+#img-div{margin:0; width: 45%;float: left; margin-right: 20px}
+/*NEED TO ASSIGN Parent container with width and then assign the image responsive width */
+#image {width:100%;  padding: 10px; padding-bottom: 0 } /*img width 100% of figure(parent) */
+#img-caption{margin: 0 0 0 10px; padding:0; font-size: 11px;}
+
+
+#main {height: auto;}
+section > p {margin: 0 0 8px0; color: grey;
+  font-size: 16px;
+  font-family: Sans-serif;} /*targeting all the <p> tags of the section articles*/
+#article{padding: 0 10px 0 10px;} /*targeting the entire article*/
+
+footer { width:100%; padding:2px; clear:both} /* clear:both removes float props*/
+h5 {text-align: center;}
