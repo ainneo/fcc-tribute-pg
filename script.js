@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     // text finished, call callback if there is a callback function
     else if (typeof fnCallback == 'function') {
       // call callback after timeout
-      setTimeout(fnCallback, 500);
+      setTimeout(fnCallback, 400);
     }
   }
   // start a typewriter animation for a text in the dataText array
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded',function(event){
      if (typeof dataText[i] == 'undefined'){
         setTimeout(function() {
           StartTextAnimation(0);
-        }, 20000);
+        }, 10000);
      }
      // check if dataText[i] exists
     if (i < dataText[i].length) {
